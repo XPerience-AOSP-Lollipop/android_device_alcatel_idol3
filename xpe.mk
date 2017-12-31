@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2018 The XPerience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,11 +15,8 @@
 
 $(call inherit-product, device/alcatel/idol3/full_idol3.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common XPerience stuff.
+$(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := idol3
-PRODUCT_NAME := lineage_idol3
-
-# Unofficial Build ID
-TARGET_UNOFFICIAL_BUILD_ID := CarlosArriaga
+PRODUCT_NAME := xpe_idol3
